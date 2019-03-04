@@ -6,7 +6,6 @@
 }
 @media screen and (max-width: 1151px){
 .phone .bg-top{
-	// width: 70%;
 	width: 444px;
 	height: auto;
 	top: 10rem;
@@ -18,7 +17,6 @@
 	max-width: 100%;
 }
 .phone{
-	// top: 31.85rem;
 	top: 16.85rem;
     right: -11.5rem;
 .img-frame{
@@ -30,8 +28,8 @@
 	height: 28rem;
 }
 .img-phone{
-	// width: 35%;
-	width: 217px;
+	max-width: 217px;
+	width: 100%;
 	height: auto;
     right: 13rem;
 }
@@ -70,11 +68,9 @@ h3{
 }
 } 
 .phone{
-	// right: -8rem;
 	right: -1rem;
 	left: auto;
 .bg-top{
-	// width: 50%;
 	width: 310px;
 	top: 1rem;
 	right: 10rem;
@@ -89,7 +85,7 @@ h3{
 	border-radius: 2rem;
 }
 .img-phone {
-    width: 144px;
+    max-width: 144px;
     right: 8.5rem;
     top: -11rem;
 }
