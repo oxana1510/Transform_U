@@ -1,0 +1,60 @@
+.start{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #5f675c), to(#373d35));
+	background: -webkit-linear-gradient(top, #5f675c 80%, #373d35 100%);
+	background: -o-linear-gradient(top, #5f675c 80%, #373d35 100%);
+	background: linear-gradient(to bottom, #5f675c 80%, #373d35 100%);
+	margin-top: 12rem;
+	padding: 10rem 0 7rem 3.5rem;
+	position: relative;
+	z-index: 4;
+	margin-bottom: 9rem;
+div{
+	position: relative;
+.bg-start{
+	position: absolute;
+	background: url(../img/bg-start.png) no-repeat;
+	width: 529px;
+	height: 641px;
+	right: 0;
+	top: -3rem;
+	z-index:-1;
+}
+.bg-weights{
+	position: absolute;
+	background: url(../img/weights.png) no-repeat;
+	width: 25.6rem;
+    height: 17.6rem;
+    right: 0.5rem;
+    bottom: -16rem;
+}
+p{
+	font-family: $font-text;
+	width: 25.1rem;
+	line-height: 2rem;
+	padding-bottom: 4rem;
+}
+.grop-link{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+.start-button{
+	color: #fff;
+	background: transparent;
+	border: 0.05rem solid #fff;
+	padding: 0.6rem 4.03rem;
+	margin-bottom: 0.75rem;
+&:hover{
+	background: #47a226;
+	border-color: transparent;
+}
+}
+}
+}
+}
