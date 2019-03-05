@@ -1,10 +1,13 @@
 //header
 @media screen and (max-width: 1151px){
-.phone .bg-top{
+.phone{
+	right: 2.5rem;
+ .bg-top{
 	width: 444px;
 	height: auto;
 	top: 10rem;
 	z-index: 1;
+}
 }
 }
 @media screen and (max-width: 834px){
@@ -36,7 +39,7 @@ h2{
 }
 }
 .top-block .container .enhance-link{
-	width: 100%;
+	width: calc(100% - 6px);
 	text-align: center;
 	padding-left: 0;
 	padding-right: 0;
@@ -104,7 +107,7 @@ h1{
 	display: none;
 }
 .transform-block{
-	padding: 0 1rem;
+	padding: 0 1.7rem;
 	margin: 5rem auto 0 auto;
 	height: 233px;
 	max-width: 100%;
@@ -129,7 +132,7 @@ div p{
 @media screen and (max-width: 1020px){
 .start{
 .container{
-	padding: 5rem 1rem 7rem 1rem;
+	padding: 5rem 1.7rem 7rem 1.7rem;
 div{
 p{
 	width: 100%;
@@ -216,8 +219,11 @@ h2{
 }
 .slider{
 	max-width:100%;
+h3{
+	text-align: center;
+}
 .slider-img{
-	margin: 0 1rem 0 1rem;
+	margin: 0 1rem 0 1.7rem;
 }
 .slick-dots{
 	bottom: -3rem;
@@ -225,7 +231,7 @@ h2{
 p{
 	margin-left: 0;
 	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-right: 1.7rem;
 }
 }
 .phone-learnmore{
@@ -239,6 +245,18 @@ p{
 @media screen and (max-width: 730px){
 .learnmore .slider h3{
 	white-space: normal;
+}
+}
+@media screen and (max-width: 648px){
+.learnmore .container .slider{
+.slider-img{
+	float: none;
+	text-align: center;
+	margin: auto;
+}
+p{
+	padding-left: 1.7rem;
+}
 }
 }
 @media screen and (max-width: 535px){
@@ -296,7 +314,7 @@ p{
 }
 @media screen and (max-width: 960px){
 .reviews .container{
-	padding: 3rem 1rem;
+	padding: 3rem 1.7rem;
 }
 }
 @media screen and (max-width: 935px){
@@ -372,7 +390,7 @@ span{
 }
 @media screen and (max-width: 960px){
 .promotional .container{
-	padding: 6rem 1rem 5rem 1rem;
+	padding: 6rem 1.7rem 5rem 1.7rem;
 }
 }
 @media screen and (max-width: 560px){

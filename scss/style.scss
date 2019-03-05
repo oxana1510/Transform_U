@@ -53,20 +53,24 @@ img{
 	top: 0.75rem;
 }
 }
-@media screen and (max-width: 1151px){
-.button,
-.link-color{
-img{
- 	top: 0.45rem;
- 	width: 29px;
-	height: auto;
-}
-}
-}
+// @media screen and (max-width: 1151px){
+// .button,
+// .link-color{
+// img{
+//  	top: 0.5rem;
+//  // 	width: 29px;
+// 	// height: auto;
+// }
+// }
+// }
 @media screen and (max-width: 570px){
 .button,
 .link-color{
 	font-size: 1rem;
+img{
+	top: 0.4rem;
+	left: 2.5rem;
+}
 }
 }
 @media screen and (max-width: 469px){
@@ -77,9 +81,6 @@ img{
 .link-color{
 	padding-left: 4.9rem;
 	padding-right: 2rem;
-img{
-	left: 2.4rem;
-}
 }
 }
 @media screen and (max-width: 410px){
@@ -94,7 +95,12 @@ img{
 	padding-right: 1.5rem;
 img{
 	left: 1.9rem;
+	width: 25px;
+	height: 26px;
+}
+&:last-child img{
 	width: 22px;
+	height: 30px;
 }
 }
 }

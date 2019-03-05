@@ -59,12 +59,9 @@ h3{
 	border-radius: 50%;
 	border: 0.05rem solid #aec6a5;
 	margin: 0 1.5rem 0 7.25rem;
-img{
-	width: 43.4%;
-}
 }
 p{
-	// width: 56.6%;
+	display: flex;
 	font-family: $font-text;
 	line-height: 2rem;
 	margin-left: 7.25rem;
