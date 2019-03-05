@@ -9,6 +9,11 @@
 	border: 0.05rem solid #47a226;
 	background: #fff;
 	color: #47a226;
+&:hover{
+	border: 0.05rem solid transparent;
+	background:  #47a226;
+	color: #fff;
+}
 }
 h2{
  font-size: 1.25rem;
