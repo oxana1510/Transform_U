@@ -59,22 +59,16 @@ h3{
 }
 .bg-fon{
 	position: absolute;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #7ebe67), color-stop(80%, #fff));
-	background: -webkit-linear-gradient(top, #7ebe67 80%, #fff 80%);
-	background: -o-linear-gradient(top, #7ebe67 80%, #fff 80%);
-	background: linear-gradient(to bottom, #7ebe67 80%, #fff 80%);
-	width: 18rem;
-	height: 37.6rem;
-	border-radius: 3rem;
-}
-.text-frame{
-	position: absolute;
-	width: 18.85rem;
-	height: 37.6rem;
-	text-align: center;
-	top: 0;
-	padding-top: 14rem;
- //    right: 16.5rem;
+    overflow: hidden;
+    width: 17rem;
+    text-align: center;
+    height: 37.6rem;
+    border-radius: 3rem;
+    padding-left: 0.5rem;
+    top: 0;
+ img{
+ 	width: 100%;
+ }
 }
 .bg-top{
 	position: absolute;
