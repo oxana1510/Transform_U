@@ -14,8 +14,6 @@ h2{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
 span{
 	position: absolute;
 	font-family: $font-reviews;
@@ -23,7 +21,8 @@ span{
 }
 .reviews-left,
 .reviews-right{
-	width: 50%;
+	max-width: 502px;
+	width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;

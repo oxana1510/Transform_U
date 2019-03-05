@@ -1,9 +1,4 @@
 //header
-@media screen and (max-width: 1190px){
-.phone{
-	right: -12rem;
-}	
-}
 @media screen and (max-width: 1151px){
 .phone .bg-top{
 	width: 444px;
@@ -16,9 +11,13 @@
 .top-block .container h2{
 	max-width: 100%;
 }
+.top-block .container h3{
+	max-width: 100%;
+	margin-bottom: 2rem;
+}
 .phone{
-	top: 16.85rem;
-    right: -11.5rem;
+	top: 30.85rem;
+	right: 7rem;
 .img-frame{
 	width: 14.13rem;
 	height: 28.2rem;
@@ -27,31 +26,23 @@
 	width: 14rem;
 	height: 28rem;
 }
-.img-phone{
-	max-width: 217px;
-	width: 100%;
+.text-frame{
+	width: 14rem;
+	height: 28rem;
+	padding-top: 10rem;
+img{
+	width: 200px;
 	height: auto;
-    right: 13rem;
+}
 }
 .bg-top{
 	top: 5rem;
 }
 }
 }
-@media screen and (max-width: 780px){
-.top-block .container h3{
-	max-width: 100%;
-	margin-bottom: 2rem;
-}
-.phone {
-	top: 30.85rem;
-	right: -5rem;
-}
-}
 @media screen and (max-width: 671px){
 .phone{
 	top: 32.85rem;
-	right: -9rem;
 }
 }
 @media screen and (max-width: 520px){
@@ -68,27 +59,8 @@ h3{
 }
 } 
 .phone{
-	right: -1rem;
 	left: auto;
-.bg-top{
-	width: 310px;
-	top: 1rem;
-	right: 10rem;
-}
-.img-frame{
-	width: 9.42rem;
-	height: 18.8rem;
-}
-.bg-fon{
-	width: 9rem;
-	height: 18.8rem;
-	border-radius: 2rem;
-}
-.img-phone {
-    max-width: 144px;
-    right: 8.5rem;
-    top: -11rem;
-}
+	right: 2rem;
 }
 }
 @media screen and (max-width: 440px){
@@ -105,7 +77,7 @@ h1{
 }
 }
 .phone{
-	right: -5rem;
+	right: 1rem;
 }
 }
 
@@ -132,6 +104,7 @@ h1{
 }
 .transform-block{
 	margin-left: 36%;
+	margin-top: 24rem;
 }
 }
 }
@@ -149,7 +122,7 @@ h1{
 }
 @media screen and (max-width: 520px){
 .transform .transform-block{
-	margin-top: 23rem;
+	margin-top: 33rem;
 }
 }
 
@@ -347,11 +320,20 @@ p{
 	padding: 3rem 2.5rem;
 }
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 935px){
+.slider-reviews{
+.slick-list{
+	padding-bottom: 2rem;
+}
+}
+.reviews-block{
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
 .reviews .container{
 .reviews-left,
 .reviews-right{
-	width: 100%;
+	max-width: 100%;
 }
 .reviews-left{
 	padding-right: 3rem;

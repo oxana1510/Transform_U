@@ -51,7 +51,7 @@ h3{
 .phone{
 	position: absolute;
 	top: 2.85rem;
-	right: -9.5rem;
+	right: 4.5rem;
 .img-frame{
 	position: relative;
 	width: 18.85rem;
@@ -67,14 +67,18 @@ h3{
 	height: 37.6rem;
 	border-radius: 3rem;
 }
-.img-phone{
-	position: relative;
-	top: -18rem;
-    right: 16.5rem;
+.text-frame{
+	position: absolute;
+	width: 18.85rem;
+	height: 37.6rem;
+	text-align: center;
+	top: 0;
+	padding-top: 14rem;
+ //    right: 16.5rem;
 }
 .bg-top{
 	position: absolute;
-    top: 0;
-    right: 15rem;
+    top: 2rem;
+    right: 2rem;
 }
 }
