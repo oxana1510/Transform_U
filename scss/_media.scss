@@ -109,12 +109,19 @@ h1{
 .transform-block{
 	padding: 0 1.7rem;
 	margin: 5rem auto 0 auto;
-	height: 233px;
+	height: 335px;
 	max-width: 100%;
 	text-align: center;
 p{
 	text-align: left;
 }
+}
+}
+}
+@media screen and (max-width: 400px){
+.transform {
+.transform-block{
+	height: 400px;	
 }
 }
 }
@@ -139,8 +146,6 @@ p{
 }
 .bg-start{
 	background-size: cover;
-	// width: 353px;
-	// height: 427px;
 	width: 510px;
 	height: 403px;
 	top: 10rem;
@@ -172,6 +177,9 @@ div{
 }
 .bg-weights{
    	bottom: -28rem;
+}
+h4{
+	margin-left: 0;
 }
 }
 }

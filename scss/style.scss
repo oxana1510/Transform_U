@@ -53,16 +53,11 @@ img{
 	top: 0.75rem;
 }
 }
-// @media screen and (max-width: 1151px){
-// .button,
-// .link-color{
-// img{
-//  	top: 0.5rem;
-//  // 	width: 29px;
-// 	// height: auto;
-// }
-// }
-// }
+h4{
+	text-align: center;
+	font: 1.5rem $font-text;
+	padding: 1rem 0;
+}
 @media screen and (max-width: 570px){
 .button,
 .link-color{
@@ -71,6 +66,9 @@ img{
 	top: 0.4rem;
 	left: 2.5rem;
 }
+}
+h4{
+	font-size: 1rem;
 }
 }
 @media screen and (max-width: 469px){
@@ -102,6 +100,9 @@ img{
 	width: 22px;
 	height: 30px;
 }
+}
+h4{
+	font-size: 0.8rem;
 }
 }
 @import "header";
